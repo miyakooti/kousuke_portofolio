@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>kousuke portofolio</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <p><i class="fas fa-chevron-right" id="hide"></i></p>
+        <p id="show" class="show pc-none"><i class="fas fa-chevron-left"></i></p>
+        <a href="#about-me" class="sp-none">About me</a>
+        <a href="#works" class="sp-none">Works</a>
+        <a href="#skills" class="sp-none">Skills</a>
+        <a href="#contact" class="sp-none header-margin ">Contact</a>
+      </div>
+    </header>
+    <div class="main-wrapper">
+      <p id="my-name" class="my-name">ARAI KOUSUKE</p> 
+    </div>
+    <div class="bold-border txtb" id="about-me"><p><i class="fas fa-user-circle"></i> About me</p></div>
+    <div class="tryangle"><span></span></div>
+    <div class="about-wrapper effect">
+      <div class="about-container">
+        <img src="img/kousuke.jpg" class="my-face">
+        <div class="status">
+          <h1>新井 航介</h1>
+          <p>2000年生まれ 神奈川県出身</p>
+          <p>2019年 上智大学情報理工学科に入学<br>→プログラミングを独学し始めて、<br>１か月半でwebマーケティングチームに<br class="pc-none">アルバイト入社</p>
+          <p>「プログラミングが好き」という理由で、<br>今でも学習を熱心に続けています！</p>
+        </div>
+      </div>
+    </div>
+    <div id="works" class="bold-border txtb"><p><i class="fas fa-briefcase"></i> Works</p></div>
+    <div class="tryangle"><span></span></div>
+    <div class="works-wrapper effect">
+      <div class="works-container">
+        <a href="img/isara.pdf" class="work">
+        <img src="img/isara-screenshot.png">
+        <p class="txts fadeIn">模写作品 <span>iSARA</span></p>
+        </a>
+        <a class="work" href="img/write.pdf">
+          <img src="img/write-screenshot.png">
+          <p class="txts fadeIn">模写作品 <span>Write</span></p>
+         </a>
+        <a class="work" href="img/progate.pdf">
+          <img src="img/progate-screenshot.png">
+          <p class="txts fadeIn">模写作品 <span>Progate</span></p>
+        </a>
+      </div>
+    </div>
+    <div id="skills" class="bold-border txtb"><p><i class="fas fa-laptop-code"></i> Skills</p></div>
+    <div class="tryangle"><span></span></div>
+    <div class="skills-wrapper effect">
+        <div class="skill html-css">
+          <div class="sp-flex">
+            <i class="fas fa-code"></i>
+            <p class="txtb">HTML5/CSS3</p>
+          </div>
+          <p class="txts">webマーケティングチームでの経験があり、保守性の高いコーディングが得意。</p>
+        </div>
+        <div class="skill jquery">
+          <div class="sp-flex">
+            <i class="fas fa-code-branch"></i>
+            <p class="txtb">Jquery</p>
+          </div>
+          <p class="txts">アコーディオン、モーダルなどの動的なコンテンツを作成することが可能。</p>
+        </div>
+        <div class="skill responsive">
+          <div class="sp-flex">
+            <i class="fas fa-mobile-alt"></i>
+            <p class="txtb">レスポンシブ対応</p>
+          </div>
+        <p class="txts">実務や模写コーディングによってかなり理解が深まっており、要求に沿ったレスポンシブ化をすることが可能。
+        </p>
+      </div>
+    </div>
+    <div class="bold-border txtb" id="contact"><p><i class="far fa-envelope-open"></i> Contact</p></div>
+    <div class="tryangle"><span></span></div>
+    <div class="contact-wrapper">
+        <form action="http://localhost/confirmation.php" method="post">
+
+          <input type="text" name="name" placeholder="お名前/会社名（必須）">
+          <input type="email" name="mail" placeholder="メールアドレス（必須）">
+          <textarea name="inquiry"cols="30" rows="10" placeholder="メッセージ本文"></textarea>
+          <input type="submit" value="送信" class="submit">
+        </form>
+      </div>
+        <footer>
+          <div class="sns">
+            <a href="https://twitter.com/gohandai_suki">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/__k029la/?hl=ja">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCHxW74bPeARMikR9pFYRdZg?view_as=subscriber">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://github.com/miyakooti">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <p class="txts">模写作品iSARAの元リンク☟</p>
+          <a class="txts link" href="https://isara.life/">https://isara.life/</a>
+          <p class="txts">© Copyright 2020 Arai Kousuke. All rights reserved.</p>
+        </footer>
+    </body>
+  </html>
