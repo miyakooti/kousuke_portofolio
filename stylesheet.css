@@ -10,7 +10,6 @@ body{
 .txtb{
   font-size:28px;
 }
-
 header {
   background-color:rgba(5, 2, 2, 0.219);
   height:50px;
@@ -320,7 +319,6 @@ header p{
 .skill {
   width:90%;
   margin-bottom: 55px;
-
 }
 .skills-wrapper{
   padding:50px 20px;
@@ -332,7 +330,7 @@ header p{
   font-size: 25px;
 }
 .skills-wrapper .fas{
-  font-size: 120px;
+  font-size: 100px;
 }
 .skills-wrapper .txts{
   padding: 10px;
@@ -349,5 +347,8 @@ header p{
 }
 .fadeIn {
   opacity:1 !important;
+}
+.jquery .txtb{
+  margin-top: 50px;
 }
 }
