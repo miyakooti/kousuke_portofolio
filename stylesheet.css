@@ -276,8 +276,17 @@ footer .link {
   font-size: 25px;
   margin: 7px 0;
 }
+/* phpで実装できるまでの一時的な対処☟ */
+.twitter-contact .fab{
+  font-size:200px;
+  margin-bottom:50px;
+}
+.twitter-contact .fab:hover{
+  text-shadow: 0 0  5px white;
+  transition:.5s;
+}
 @media screen and (max-width:768px){
-.pc-none {
+  .pc-none {
   display: block;
 }
 body .sp-none {
@@ -290,8 +299,9 @@ header p{
 }
 .header-container a{
   font-size: 10px;
-  padding: 10px;
   line-height: 33px;
+  height: 100%;
+  padding: 8.5px;
 }
 .about-container{
   flex-direction: column;
