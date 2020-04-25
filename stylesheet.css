@@ -146,6 +146,7 @@ header {
   background-color: rgb(54, 49, 56);
   border-radius:20px;
   box-shadow: 3px 3px 0 black;
+  margin-bottom:15px;
 }
 .skill:hover {
   box-shadow: none;
