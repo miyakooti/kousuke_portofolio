@@ -109,7 +109,7 @@ header {
  height:100%;
 }
 .works-container a {
- width:350px;
+ width:420px;
  border-radius:3px;
  margin:0 auto;
  margin-bottom:50px;
@@ -164,10 +164,27 @@ header {
 .skills-wrapper .fas {
   font-size:170px;
 }
+.skills-wrapper .fab {
+  font-size:170px;
+}
+.skills-wrapper .far {
+  font-size:170px;
+}
+.skills-wrapper
 .jquery .txtb, .fa-code-branch {
   color:rgb(226, 226, 4);
   font-weight:bold;
   text-shadow: 0 0 4px rgb(94, 100, 0);
+}
+.swift .txtb, .fa-swift {
+  color: rgb(239 147 53);
+  font-weight: bold;
+  text-shadow: 0 0 4px rgb(250 167 82 / 54%);
+}
+.ruby .txtb, .fa-gem {
+  color: #460000;
+  font-weight: bold;
+  text-shadow: 0 0 4px #8d3433;
 }
 .responsive .txtb, .fa-mobile-alt {
   color:rgb(31, 201, 130);
