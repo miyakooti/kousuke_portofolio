@@ -156,6 +156,10 @@ header {
   transition:none;
 }
 
+.python .txtb, .fa-python{
+  color:white;
+  text-shadow: 0 0 4px white;
+}
 .html-css .txtb, .fa-code{
   color:rgb(145, 3, 3);
   font-weight:bold;
